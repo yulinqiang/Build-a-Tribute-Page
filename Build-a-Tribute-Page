@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Build a Tribute Page</title>
+</head>
+<style>
+	body{
+		margin:0;
+		padding: 0;
+		background: #fff;
+	}
+	.total{
+		width: 900px;
+		padding-top: 50px;
+		margin: 60px auto;
+		background: #eee;
+	}
+	h1{
+		text-align: center;
+		padding-top: 50px;
+	}
+	.about_id{
+		text-align: center;
+		font-size: 20px;
+	}
+	.main{
+		margin: 0 50px;
+		padding: 5px;
+		background: #fff;
+	}
+	.photo{
+		width: 100%;
+	}
+	.photo_contain{
+		padding: 10px 20px;
+	}
+	.container{
+		width: 830px;
+		margin: 0 auto;
+	}
+	footer{
+		font-size: 80%;
+	}
+	.footer{
+		padding: 30px 0 50px 0;
+		font-size: 22px;
+	}
+	.about_him{
+		padding:10px 0 20px 0;
+		font-size: 25px;
+	}
+</style>
+<body>
+	<div class="total">
+		<div class="header">
+			<h1><strong>阿尔伯特·爱因斯坦</strong></h1>
+			<p class="about_id"><em>继伽利略、牛顿以来最伟大的物理学家</em></p>
+		</div>
+		<div class="main">
+			<div><img src="http://imgsrc.baidu.com/forum/w%3D580/sign=ac8982d03801213fcf334ed464e636f8/dc54564e9258d10992471fbbd058ccbf6c814d16.jpg" alt="Albert.Einstein" class="photo"></div>
+			<div class="photo_contain">
+				1927年第五届布鲁塞尔索尔维物理讨论会参加者合影，中间系红色领带者即为爱因斯坦，他同哥本哈根学派就量子力学的解释问题进行激烈论战。
+			</div>
+		</div>
+		<div class="container">
+			<ul>
+			<p class="about_him"><strong>爱因斯坦人生中的主要经历：</strong></p>
+				<li><strong>1879年3月14日：</strong>出生于德国乌尔姆市的一个犹太人家庭（父母均为犹太人）。</li>
+				<li><strong>1900年8月（21岁）：</strong>爱因斯坦毕业于苏黎世联邦工业大学；12月完成论文《由毛细管现象得到的推论》，次年发表在莱比锡《物理学杂志》上并入瑞士籍。</li>
+				<li><strong>1905年（26岁）3月：</strong>发表量子论，提出光量子假说，解决了光电效应问题。4月向苏黎世大学提出论文《分子大小的新测定法》，取得博士学位。5月完成论文《论动体的电动力学》，独立而完整地提出狭义相对性原理，开创物理学的新纪元。这一年因此被称为“爱因斯坦奇迹年”。</li>
+				<li><strong>1913年（34岁）：</strong>重返德国，任柏林威廉皇帝物理研究所长和柏林洪堡大学教授，并当选为普鲁士科学院院士。1913年（34岁），重返德国，任柏林威廉皇帝物理研究所长和柏林洪堡大学教授，并当选为普鲁士科学院院士。</li>
+				<li><strong>1915年（36岁）11月：</strong>提出《广义相对论》引力方程的完整形式，并且成功地解释了水星近日点运动。</li>
+				<li><strong>1916年（37岁）3月：</strong>完成总结性论文《广义相对论的基础》。5月，提出宇宙空间有限无界的假说。8月，完成《关于辐射的量子理论》，总结量子论的发展，提出受激辐射理论。</li>
+				<li><strong>1921年（42岁）：</strong>爱因斯坦因光电效应研究而获得诺贝尔物理学奖，他的研究推动了量子力学的发展。1月，访问布拉格和维也纳。同年1月27日在普鲁士科学院作《几何学和经验》的报告。2月，去阿姆斯特丹参加国际工联会议。4月5日至5月30日，为了给耶路撒冷的希伯莱大学的创建筹集资金，同魏茨曼一起首次访问美国。在哥伦比亚大学获巴纳德勋章。在白宫受哈丁总统接见。在访问芝加哥、波士顿和普林斯顿期间，就相对论进行了4次讲学。6月，访问英国，拜谒了牛顿墓地。</li>
+				<li><strong>1926年（47岁）：</strong>同海森堡讨论关于量子力学的哲学问题。接受“皇家天文学家”的金质奖章。接受为苏联科学院院士。</li>
+				<li><strong>1931年（52岁）3月：</strong>从美国回柏林。5月，访问英国，在牛津讲学。11月，号召各国对日本经济封锁，以制止其对中国的军事侵略。12月，再度去加利福尼亚讲学。为参加1932年国际裁军会议，特地发表了一系列文章和演讲。发表《麦克斯韦对物理实在观念发展的影响》。</li>
+				<li><strong>1936年（57岁）：</strong>开始同英费尔德和霍夫曼合作研究广义相对论的运动问题。12月20日，妻艾尔莎病故。发表《物理学和实在》、《论教育》。</li>
+				<li><strong>1937年（58岁）3月—9月：</strong>参加由英费尔德执笔的通俗册子《物理学的进化》的编写工作。3月，声援中国“七君子”。6月，同英费尔德和霍夫曼合作完成论文《引力方程和运动问题》，从广义相对论的场方程推导出运动方程。</li>
+				<li><strong>1940年（61岁）5月15日：</strong>发表《关于理论物理学基础的考查》。5月22日，致电罗斯福，反对美国的中立政策。10月1日，取得美国国籍。同年爱因斯坦写了一篇著名论文，为他的这一命题进行辩护，即“我不信仰一个人格化的神”。</li>
+				<li><strong>1944年（65岁）：</strong>为支持反法西斯战争，以600万美元拍卖1905年狭义相对论论文手稿。发表对罗素的认识论的评论。12月，同斯特恩、玻尔讨论原子武器和战后和平问题，听从玻尔劝告，暂时保持沉默。</li>
+				<li><strong>1948年（69岁）4月：</strong>同天文学家夏普林利合作，全力反对美国准备对苏联进行“预防性战争”。抗议美国进行普遍军事训练。发表《量子力学和实在》。前妻米列娃在苏黎世病故。12月，作剖腹手术，在腹部主动脉里发现一个大动脉瘤。</li>
+				<li><strong>1950年（71岁）2月13日：</strong>发表电视演讲，反对美国制造氢弹。4月，发表《关于广义引力论》。</li>
+				<li><strong>1952年（73岁）：</strong>发表《相对论和空间问题》、《关于一些基本概论的绪论》。11月，以色列第1任总统哈伊姆·魏茨曼死后，以色列政府请他担任第2任总统，被拒绝。</li>
+				<li><strong>1955年（76岁）4月18日：</strong>爱因斯坦被诊断出患有主动脉瘤，18日午夜在睡梦中感到呼吸困难，主动脉瘤破裂导致大脑溢血破裂，而逝世于普林斯顿。</li>
+				<li><strong></strong></li>
+			</ul>
+			<blockquote>
+			<p>
+				“爱因斯坦常常被称为一个孤独的人。数学想象的领域有助于把精神从纷繁的俗物中解脱出来，就这个意义而言，我认为他确实是一个孤独的人。他的哲学可以叫做一种超验的唯物论，这种哲学达到了形而上学的前沿，那里可以完全割断对自我世界的纠缠。对我来说，科学和艺术都是我们天性的表现，它们高出我们的生物学需要之上而具有终极价值。”
+			</p>
+			<footer><cite>————拉宾德拉纳特·泰戈尔</cite></footer>
+
+			<p class="footer">爱因斯坦的理论，最初受到许多人的反对，就连当时一些著名物理学家也对这位年青人的论文表示怀疑。然而，随着科学的发展，大量的科学实验证明爱因斯坦的理论是正确的，爱因斯坦才一跃而成为世界著名的科学家，成为20世纪世界最伟大的科学家。点击<a href="http://baike.baidu.com/link?url=paiy6aYNfV3KeI9s4xCsI6LG3M8m9Yu0vOBWBzDL7uejWgQHoIMPmYyXWo_k-WrCV5kjzGktskxYTezDD2wNkGNG1iA-5IhQa8fkrzIBIQB_U3r9Mt5gYkGKIBOmet1lOF8G9PpLUoSrjCQ_ivM2HnkQUy9Qo7fdks6xJUDOf0VL-sN11uJT8lrtB---ZEIrXDGqoDh0qt_yTgf1QXPQB4wzocIYHTs1L7Pwv3eglTKVjlltQdgdVEx4ShEAvSMq2lxMhTAdroaL4q4vEjcxra#6">爱因斯坦</a>了解更多。</p>
+			</blockquote>
+		</div>
+	</div>
+</body>
+</html>
